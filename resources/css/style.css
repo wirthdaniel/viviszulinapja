@@ -6,8 +6,8 @@
 }
 
 html, body{
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))),url(images/bridge.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(images/bunny.jpg);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))),url(images/heart.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(images/heart.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
