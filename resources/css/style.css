@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))),url(images/bridge.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(images/bunny.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+	font-family: Raleway, serif;
+	color:rgb(237, 239, 242);
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.hero-textbox{
+	font-family: 'Dancing Script', cursive;
+	text-align:center;
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+
+h1,h2,h3,h4{
+  font-weight: 300;
+}
+
+h1{
+	margin:0;
+	font-size:3rem;
+}
+
+h2{
+	margin-top:1rem;
+	font-size:1.8rem;
+
+}
+
+h3{
+	margin:0;
+	font-size:1.8rem;
+}
+
+hr{
+	width:590px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0.5rem;
+	margin-bottom:0.5rem;
+	border: 1px solid #e67e22;
+}
+
+h4{
+	margin:0;
+	margin-top:0.25rem;
+	margin-bottom:0.5rem;
+	font-size:1.5rem;
+}
+
+p{
+	word-spacing:2px;
+	line-height:1.2rem;
+}
+
+
+.image-link{
+	display:inline-block;
+	width:350px;
+	border-radius:5px;
+}
+
+.possibilities{
+	text-align:center;
+
+}
+
+.possibilities> *{
+	vertical-align: top;
+  line-height: normal;
+}
+
+.description p{	
+	text-align:left;
+	padding:0.5rem;
+}
+
+.column{
+	width:350px;
+	float:left;
+	margin:1rem 1rem;
+	background-color:rgba(79, 79, 79, 0.39);
+	border-radius:5px;
+	position:relative;
+	left:25%;
+}
+
+.title{
+	display:inline-block;
+	text-decoration:none;
+	color:rgb(237, 239, 242);
+	margin:10px;
+	border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+	font-size:1.2rem;
+}
+
+.title:hover{
+	color:rgba(255, 255, 255, 1);
+	border-bottom: 2px solid #e67e22;
+}
+
+.link{
+	text-decoration:none;
+	color:hsla(39, 100%, 55%, 1);
+	border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.link:hover{
+	color:rgba(255, 255, 255, 1);
+	border-bottom: 2px solid #e67e22;
+}
+
+.image-link{
+		opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.image-link img:hover{
+    opacity: 0.9;
+    -webkit-transform: scale(1.015);
+    -ms-transform: scale(1.015);
+    transform: scale(1.015);
+}
+
+@media (max-width: 500px){
+		.column{
+			width:100%;
+			position:static;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+		.image-link{
+			width:100%;
+		}
+		
+}
+
+
